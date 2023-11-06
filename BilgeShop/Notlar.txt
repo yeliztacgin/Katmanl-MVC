@@ -1,0 +1,17 @@
+ilk önce blank solutioýn açýldýý -- yalnýzca klasor
+1-bilgeshop.data projesi eklenmesi (class library)
+2-bilgeshop .business projesi eklenmesi (class libraray)
+3-bilge shop.webuý projesi eklemesi (asp net core emty)
+proje baðlantýlarý için add referance yapýyoruz
+
+1-Bilgeshop business Add-Reference bilgeshop data checkle
+Artýk busýnýs katmanýnda  data metodlarý kullanýlabilir.
+2- Bilgeshop webuý add referance  bilgeshop business checkle
+Artýk web uý katmanýnda busýness metodlarý kullanýlabilir.
+
+Ayný zamanda dolaylý yoldan web-uý dataya baðlandý.
+--------------------------------------------------
+
+**** Data katmanlarý Ýþlemleri *****
+
+1-Entityleri oluþtrumak
